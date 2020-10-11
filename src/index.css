@@ -1,0 +1,154 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(11, 34, 107, 1) 25%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  min-height: 100%;
+  padding-bottom: 5rem;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+  padding: 1rem 0;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 1px;
+}
+
+label {
+  color: white;
+}
+
+input[type="date"],
+input[type="time"] {
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+.appointment {
+  padding: 2rem;
+  margin-bottom: 1rem;
+  background: white;
+  border-bottom: 1px solid #e1e1e1;
+  color: black;
+}
+
+.appointment p {
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.appointment p span {
+  font-weight: normal;
+}
+
+.appointment:first-of-type {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.appointment:last-of-type {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.button.remove,
+.button.remove:hover {
+  background-color: #0b226b;
+  color: white;
+  margin-top: 2rem;
+}
+
+.alert-error {
+  background-color: white;
+  color: red;
+  padding: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Staatliches", cursive;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.wrapper .button {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 0 5px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1):hover {
+  width: 150px;
+  color: #0073b1;
+}
+
+.wrapper .button:nth-child(2):hover {
+  width: 150px;
+  color: #24292e;
+}
+
+.wrapper .button:nth-child(3):hover {
+  width: 180px;
+  color: #07bc22;
+}
+
+.wrapper .button .icon {
+  display: inline-block;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin-left: -30px;
+}
+
+.wrapper .button .icon i {
+  font-size: 40px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.rights {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-family: "Staatliches", cursive;
+  font-size: 1.8rem;
+  color: white;
+}
