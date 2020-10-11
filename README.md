@@ -1,4 +1,4 @@
-# Appointments-reactJs
+# Appointments-ReactJs
 Appointments web site from course React udemy create by Juan de la Torre
 
 # Sourcers 
